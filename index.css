@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://i.ibb.co/bXrWztX/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image-340649.jpg");
+  background-size: cover;
+}
+.container {
+  width: 30%;
+  margin: 6.4rem auto 4.8rem auto;
+  padding: 3.6rem;
+  border-radius: 11px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  background-color: #fcf3ee;
+}
+.heading {
+  text-align: center;
+  color: #555;
+}
+.screen {
+  height: 4.8rem;
+  width: 90%;
+  margin: 2.4rem auto;
+  background-color: #f3d2c1;
+  border-radius: 11px;
+  overflow: hidden;
+  border: 2px solid #88b4b6;
+}
+.display-txt {
+  font-size: 4rem;
+  text-align: end;
+  margin-right: 1.8rem;
+  color: #555;
+}
+
+.input-btns {
+  display: grid;
+  grid-template-columns: repeat(4, 14%);
+  row-gap: 2.4rem;
+  column-gap: 2.4rem;
+  margin-top: 3.6rem;
+  justify-content: center;
+}
+.btn {
+  border: none;
+  padding: 1.8rem 0;
+  border-radius: 11px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  /* background-color: #fff; */
+  opacity: 100%;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.number-0 {
+  grid-column: 2/3;
+}
+.equals {
+  grid-column: 3 / span 2;
+}
+.operation {
+  background-color: #f3d2c1;
+}
+.nmbr {
+  background-color: #88b4b6;
+}
+footer {
+  text-align: center;
+  border-radius: 11px;
+  margin: 0 auto;
+  width: 30%;
+  background-color: #fcf3ee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-bottom: 2.4rem;
+}
+footer p {
+  font-size: 1.8rem;
+  color: #555;
+  font-weight: 600;
+  /* border-radius: 11px; */
+}
+
+/* ################################################## */
+/* ################ Media queries ################### */
+/* ################################################## */
+
+@media (max-width: 84em) {
+  footer {
+    width: 40%;
+  }
+  .container {
+    width: 40%;
+  }
+}
+@media (max-width: 65em) {
+  .container {
+    width: 50%;
+  }
+  footer {
+    width: 50%;
+  }
+}
+@media (max-width: 44em) {
+  .container {
+    width: 60%;
+  }
+  footer {
+    width: 60%;
+  }
+}
+"https://i.ibb.co/bXrWztX/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image-340649.jpg"
