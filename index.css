@@ -10,7 +10,7 @@ html {
 body {
   height: 100%;
   width: 100%;
-  background-image: url("https://i.ibb.co/bXrWztX/pngtree-mathematics-education-calculator-ruler-hand-drawn-background-image-340649.jpg");
+  background-image: url("calcBG.jpg");
   background-size: cover;
 }
 .container {
@@ -69,6 +69,7 @@ body {
 }
 .operation {
   background-color: #f3d2c1;
+  font-size: 1.6rem;
 }
 .nmbr {
   background-color: #88b4b6;
